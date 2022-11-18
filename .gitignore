@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Visual Studio 2019
+.vs/
+*.sln
+bin/
+Debug/
+*.vcxproj*

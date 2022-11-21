@@ -26,6 +26,7 @@ This is a simple OpenGL project that I made to learn OpenGL.
   # project -> Properties -> Linker -> General
   - Additional Library Directories: [
       $(SolutionDir)Dependencies\GLFW\lib-vc2019\
+      $(SolutionDir)Dependencies\GLEW\lib\Release\Win32\
     ]
   # project -> Properties -> Linker -> Input
   - Additional Dependencies: glew32s.lib;glfw3.lib;opengl32.lib;User32.lib;Gdi32.lib;Shell32.lib;
